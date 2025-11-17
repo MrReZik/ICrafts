@@ -1,0 +1,37 @@
+name: iCrafts
+version: 1.0
+main: com.mrrezik.icrafts.ICrafts
+api-version: 1.17
+author: MrRezik (via Gemini)
+description: Создание кастомных крафтов через GUI.
+
+commands:
+  icrafts:
+    description: Главная команда плагина iCrafts.
+    usage: /icrafts <subcommand>
+    aliases: [ic]
+
+permissions:
+  icrafts.admin:
+    description: Дает доступ ко всем командам iCrafts.
+    children:
+      - icrafts.help
+      - icrafts.create
+      - icrafts.delete
+      - icrafts.edit
+      - icrafts.open
+  icrafts.help:
+    description: Разрешает использовать /icrafts help.
+    default: op
+  icrafts.create:
+    description: Разрешает создавать новые крафты.
+    default: op
+  icrafts.delete:
+    description: Разрешает удалять крафты.
+    default: op
+  icrafts.edit:
+    description: Разрешает редактировать крафты.
+    default: op
+  icrafts.open:
+    description: Разрешает просматривать крафты.
+    default: op

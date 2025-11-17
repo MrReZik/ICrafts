@@ -1,0 +1,31 @@
+# messages.yml
+prefix: "&8[&6iCrafts&8] &r"
+
+messages:
+  reloaded: "&aКонфигурация и рецепты перезагружены."
+  must-be-player: "&cЭту команду может использовать только игрок."
+  usage-create: "&cИспользование: /icrafts create <имя> <WORKBENCH/FURNACE/ANVIL>"
+  usage-edit: "&cИспользование: /icrafts edit <имя>"
+  usage-view: "&cИспользование: /icrafts view <имя>"
+  usage-delete: "&cИспользование: /icrafts delete <имя>"
+  invalid-type: "&cНеверный тип рецепта. Доступные: %types%"
+  recipe-exists: "&cРецепт '%recipe%' уже существует."
+  recipe-not-found: "&cРецепт '%recipe%' не найден."
+  recipe-deleted: "&aРецепт '%recipe%' успешно удален."
+  recipe-saved: "&aРецепт '%recipe%' сохранен."
+  no-result: "&cДля сохранения крафта необходимо указать результат."
+
+gui:
+  item-save: "&a&lСОХРАНИТЬ РЕЦЕПТ"
+  item-save-lore:
+    - "&7Нажмите, чтобы сохранить текущий крафт"
+    - "&7в файл data.yml."
+  anvil-xp-name: "&eСтоимость Опыта"
+  anvil-xp-lore: "&7Требуемый уровень: &a%cost%"
+
+help-message:
+  - "&7---------- &6[iCrafts] &7----------"
+  - "&6/icrafts create &7- Создать новый крафт."
+  - "&6/icrafts edit &7- Редактировать существующий."
+  - "&6/icrafts delete &7- Удалить крафт."
+  - "&6/icrafts reload &7- Перезагрузить конфиги."
